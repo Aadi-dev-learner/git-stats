@@ -19,13 +19,13 @@
 ### Linux / macOS
 
 ```bash
-curl -sSf https://raw.githubusercontent.com/Aadi-dev-learner/git-stats/tree/main/main/scripts/install.sh | bash
+curl -sSf https://raw.githubusercontent.com/Aadi-dev-learner/git-stats/main/scripts/install.sh | bash
 ```
 
 ### Windows (PowerShell)
 
 ```powershell
-iwr -useb https://raw.githubusercontent.com/Aadi-dev-learner/git-stats/tree/main/main/scripts/install.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/Aadi-dev-learner/git-stats/main/scripts/install.ps1 | iex
 ```
 
 *The installer detects your OS/CPU, downloads the latest binary from the ****GitHub Releases**** page, and places it in a directory that’s already on your **`$PATH`** (**`/usr/local/bin`** on Unix or your user folder on Windows).*
