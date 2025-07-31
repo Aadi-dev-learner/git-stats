@@ -19,13 +19,10 @@
 ### Linux / macOS
 
 ```bash
-curl -sSf https://raw.githubusercontent.com/Aadi-dev-learner/git-stats/main/scripts/install.sh | sudo bash
-```
+curl -LO https://github.com/Aadi-dev-learner/git-stats/releases/download/v1.0.0/git-stats-linux-amd64
+chmod +x git-stats-linux-amd64
+sudo mv git-stats-linux-amd64 /usr/local/bin/git-stats
 
-### Windows (PowerShell)
-Make sure to open powershell as adminstrator.
-```powershell
-iwr -useb https://raw.githubusercontent.com/Aadi-dev-learner/git-stats/main/scripts/install.ps1 | iex
 ```
 
 *The installer detects your OS/CPU, downloads the latest binary from the ****GitHub Releases**** page, and places it in a directory that’s already on your **`$PATH`** (**`/usr/local/bin`** on Unix or your user folder on Windows).*
@@ -49,24 +46,6 @@ Example output:
  2. gregkh              –  8 412 commits
  3. davem               –  6 521 commits
   …
-```
-
----
-
-## 🛠 Building from Source
-
-```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/git-stats.git
-cd git-stats
-go build -o git-stats
-```
-
-Cross‑compile binaries (examples):
-
-```bash
-GOOS=linux   GOARCH=amd64 go build -o bin/git-stats-linux-amd64
-GOOS=darwin  GOARCH=arm64 go build -o bin/git-stats-darwin-arm64
-GOOS=windows GOARCH=amd64 go build -o bin/git-stats-windows-amd64.exe
 ```
 
 ---
