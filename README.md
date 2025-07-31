@@ -19,11 +19,11 @@
 ### Linux / macOS
 
 ```bash
-curl -sSf https://raw.githubusercontent.com/Aadi-dev-learner/git-stats/main/scripts/install.sh | bash
+curl -sSf https://raw.githubusercontent.com/Aadi-dev-learner/git-stats/main/scripts/install.sh | sudo bash
 ```
 
 ### Windows (PowerShell)
-
+Make sure to open powershell as adminstrator.
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Aadi-dev-learner/git-stats/main/scripts/install.ps1 | iex
 ```
