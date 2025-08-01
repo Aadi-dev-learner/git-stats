@@ -25,7 +25,7 @@ sudo mv git-stats-linux-amd64 /usr/local/bin/git-stats
 
 ```
 ---
-### MacOS
+### MacOS (M1/M2...)
 
 ```bash
 curl -LO https://github.com/jain-aadi/git-stats/releases/download/v1.0.0/git-stats-darwin-arm64
@@ -33,9 +33,25 @@ chmod +x git-stats-darwin-arm64
 sudo mv git-stats-darwin-arm64 /usr/local/bin/git-stats
 
 ```
+### MacOS (Intel)
+
+```bash
+curl -LO https://github.com/jain-aadi/git-stats/releases/download/v1.0.0/git-stats-darwin-amd64
+chmod +x git-stats-darwin-amd64
+sudo mv git-stats-darwin-amd64 /usr/local/bin/git-stats
+
+```
+### Windows (powershell : run as adminstrator)
+
+```powershell 
+iwr -useb https://github.com/jain-aadi/git-stats/releases/download/v1.0.0/git-stats-windows-amd64.exe -OutFile $env:USERPROFILE\git-stats.exe
+$env:Path += ";$env:USERPROFILE"
+
+```
 
 
-## ⚡️ Usage
+-- Use git-stats.exe for windows .
+## ⚡️ Usage 
 
 ```bash
 # Basic usage — show top contributors for a public repo
@@ -43,7 +59,6 @@ $ git-stats -r https://github.com/torvalds/linux
 
 Example output:
 
-```
 📘 Repo: torvalds/linux
    ⭐ Stars  : 165 k    🍴 Forks  : 55 k    💻 Language : C
 
