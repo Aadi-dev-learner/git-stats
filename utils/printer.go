@@ -3,8 +3,8 @@ package utils
 import (
 	"fmt"
 
-	"github.com/Aadi-dev-learner/git-stats/github"
 	"github.com/fatih/color"
+	"github.com/jain-aadi/git-stats/github"
 )
 
 func PrintTitle(title string) {

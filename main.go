@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Aadi-dev-learner/git-stats/github"
-	"github.com/Aadi-dev-learner/git-stats/utils"
+	"github.com/jain-aadi/git-stats/github"
+	"github.com/jain-aadi/git-stats/utils"
 )
 
 func main() {

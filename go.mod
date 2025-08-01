@@ -1,4 +1,4 @@
-module github.com/Aadi-dev-learner/git-stats
+module github.com/jain-aadi/git-stats
 
 go 1.24.4
 

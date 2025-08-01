@@ -16,18 +16,24 @@
 ## 🚀 Quick Install
 
 
-### Linux / macOS
+### Linux
 
 ```bash
-curl -LO https://github.com/Aadi-dev-learner/git-stats/releases/download/v1.0.0/git-stats-linux-amd64
+curl -LO https://github.com/jain-aadi/git-stats/releases/download/v1.0.0/git-stats-linux-amd64
 chmod +x git-stats-linux-amd64
 sudo mv git-stats-linux-amd64 /usr/local/bin/git-stats
 
 ```
-
-*The installer detects your OS/CPU, downloads the latest binary from the ****GitHub Releases**** page, and places it in a directory that’s already on your **`$PATH`** (**`/usr/local/bin`** on Unix or your user folder on Windows).*
-
 ---
+### MacOS
+
+```bash
+curl -LO https://github.com/jain-aadi/git-stats/releases/download/v1.0.0/git-stats-darwin-arm64
+chmod +x git-stats-darwin-arm64
+sudo mv git-stats-darwin-arm64 /usr/local/bin/git-stats
+
+```
+
 
 ## ⚡️ Usage
 
